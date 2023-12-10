@@ -1,0 +1,90 @@
+#all{
+    justify-content: center;
+    width: 300px;
+    border: 2px solid #420968;
+    border-radius: 30px;
+    padding: 25px;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin: 0 auto;
+    margin-top: 150px;
+    text-align: center;
+    background-image: linear-gradient(to top left, rgb(178, 169, 255), rgb(95, 54, 170), rgb(197, 92, 201));
+    transition-duration: 500ms;
+    
+}
+#all:hover{
+    background-image: linear-gradient(to bottom right,rgb(197, 92, 201),rgb(178, 169, 255), rgb(95, 54, 170)); 
+    transition-duration: 500ms;
+    width: 305px;
+}
+
+#span1{
+    margin-bottom: 10px;
+    color: white; 
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #f0f0f0;
+    font-size: 25px;
+}
+
+p{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #f0f0f0;
+    font-size: 25px;
+}
+
+#inputdiv{
+    display:flex;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.inputstyle{
+    width: 120px;
+    border-radius: 50px;
+    height: 15px; 
+    transition-duration: 500ms;
+    border: 2px solid #420968;
+}
+
+.inputstyle:hover{
+    width: 135px;
+    border-radius: 5px;
+    height: 30px;
+    transition-duration: 500ms;
+}
+
+#input1{
+    margin-right: 10px;
+}
+
+body{
+    justify-content: center;
+}
+
+
+
+
+.buttonstyle{
+    width: 100px;
+    height: 25px;
+    background-color: #752a88; 
+    color: white;
+    border-radius: 50px;
+    transition-duration: 500ms;
+    border: 2px solid #4c2383;
+
+}
+
+.buttonstyle:hover{
+    width: 130px;
+    height: 50px;
+    transition-duration: 500ms;
+    font-size: 20px;
+    text-align: center;
+}
+#subtracao, #divisao{
+    margin-top: 5px;
+}
+
